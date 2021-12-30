@@ -1,0 +1,121 @@
+﻿* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 30px 0;
+  font-family: "宋体";
+  font-size: 18px;
+  color: rgb(0, 31, 63);
+}
+
+.wrapper {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 35px;
+  text-align: center;
+}
+
+.search {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.search a {
+  display: inline-block;
+  padding-left: 20px;
+  font-size: 20px;
+  color: blueviolet;
+}
+
+.search label {
+  display: inline-block;
+  height: 28px;
+  line-height: 34px;
+}
+
+.search span {
+  height: 34px;
+  line-height: 34px;
+}
+
+.search a {
+  display: inline-block;
+  line-height: 34px;
+}
+
+input[type=text] {
+  display: block;
+  width: 350px;
+  height: 30px;
+  outline: none;
+  border: 2px solid black;
+  border-radius: 11px;
+  padding-left: 14px;
+  font-size: 18px;
+}
+
+.content-box {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  position: relative;
+  width: 1000px;
+  margin-top: 30px;
+}
+
+.content-box .record {
+  position: relative;
+  width: 750px;
+  border-radius: 18px;
+  background: #ececec;
+  box-shadow: 9px 9px 22px #bebebe,
+    -9px -9px 22px #ffffff;
+  padding: 20px 20px 20px 30px;
+  margin-bottom: 18px;
+  cursor: pointer;
+}
+
+.content-box .info {
+  margin-bottom: 20px;
+}
+
+.content-box .info span {
+  display: inline-block;
+}
+
+.content-box .info .title {
+  font-size: 26px;
+  font-weight: 700;
+  font-family: "宋体";
+  margin-right: 25px;
+}
+
+.content-box .paragraph {
+  padding-left: 18px;
+  margin-bottom: 20px;
+}
+
+.content-box .tip {
+  position: absolute;
+  right: 30px;
+  bottom: 18px;
+}
+
+.count {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.count,
+.search,
+h1 {
+  width: 1000px;
+}

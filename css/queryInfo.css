@@ -1,0 +1,73 @@
+﻿* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 30px 0 0 60px;
+  font-family: "楷体";
+  font-size: 18px;
+  color: rgb(0, 31, 63);
+}
+
+h1 {
+  font-size: 40px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+h2 {
+  text-indent: 0;
+  margin-bottom: 10px;
+}
+
+.content-box {
+  position: fixed;
+  width: 1124px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.content-box .poetry-content {
+  float: left;
+}
+
+.poetry-content {
+  overflow: auto;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 562px;
+  max-height: 550px;
+  margin-left: 10px;
+}
+
+.poetry-content .author {
+  margin-bottom: 8px;
+  font-size: 26px;
+  text-align: center;
+}
+
+.paragraphs p {
+  font-weight: 700;
+  margin-bottom: 3px;
+  padding-left: 31px;
+  font-size: 26px;
+  text-align: center;
+  letter-spacing: .2em;
+}
+
+.content-box .desc {
+  float: right;
+  width: 450px;
+  margin-right: 10px;
+  text-indent: 2em;
+  font-size: 20px;
+}
+
+.content-box .desc .text {
+  overflow: auto;
+  letter-spacing: 1.5px;
+  max-height: 470px;
+}
