@@ -22,7 +22,7 @@
 
 ## 3、演示
 
-​		项目演示地址：[律回彼境-唐诗信息在线查询](https://www.glowmem.com/poetryQuery/login)
+​		项目演示地址：[律回彼境-唐诗信息在线查询](https://www.glowmem.com/projectsLab/poetryQuery/login)
 
 
 
